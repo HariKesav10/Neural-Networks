@@ -1,0 +1,21 @@
+{
+  "layers": [
+              {
+                "type": "input",
+                "neurons": 3
+              },
+              {
+                "type": "hidden",
+                "neurons": 2,
+                "activation": "sigmoid"
+              },
+              {
+                "type": "output",
+                "neurons": 2,
+                "activation": "sigmoid"
+              }
+  ],
+  "learning_rate": 0.1,
+  "epochs": 1,
+  "batch_size": 32
+}
